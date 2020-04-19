@@ -2,16 +2,16 @@
 class Sshststuff < Formula
   desc "TODO"
   homepage "https://ssh.st"
-  version "0.11"
+  version "0.12"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sshst/sshststuff/releases/download/0.11/sshststuff_0.11_Darwin_x86_64.tar.gz"
-    sha256 "3971322af2e6f0ad6967b5b589bb3cf8b5c3a43fa6296f1ea1a9c1ed7fcb5574"
+    url "https://github.com/sshst/sshststuff/releases/download/0.12/sshststuff_0.12_Darwin_x86_64.tar.gz"
+    sha256 "81a864a06f8ea910dfdc5010cb2244256883e1a8e1fe0a5242bc323460de48e0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sshst/sshststuff/releases/download/0.11/sshststuff_0.11_Linux_x86_64.tar.gz"
-      sha256 "e9a9d1e0c5749056c25ead6e4e570e440abdd307aa6f9efcd4e15e2e61b86b48"
+      url "https://github.com/sshst/sshststuff/releases/download/0.12/sshststuff_0.12_Linux_x86_64.tar.gz"
+      sha256 "6defce64407852dabd145ebf39e1d2f3fcfbbaed24bf2009e5cda45f886cd618"
     end
   end
 
